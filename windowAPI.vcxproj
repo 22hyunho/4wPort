@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{5FF87F12-A659-4CCA-BB35-A5853F8FDDA9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>windowAPI</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Anvil.h" />
+    <ClInclude Include="ArmorSkeleton.h" />
+    <ClInclude Include="Arrow.h" />
+    <ClInclude Include="arrowManager.h" />
+    <ClInclude Include="Artifact.h" />
+    <ClInclude Include="ArtifactDex.h" />
+    <ClInclude Include="ArtifactHeader.h" />
+    <ClInclude Include="AstarTile.h" />
+    <ClInclude Include="Bat.h" />
+    <ClInclude Include="BearTrap.h" />
+    <ClInclude Include="Boots.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="bossEffect1_2.h" />
+    <ClInclude Include="bossEffect2_1.h" />
+    <ClInclude Include="bossEffect2_2.h" />
+    <ClInclude Include="bossRoom1.h" />
+    <ClInclude Include="bossRoom2.h" />
+    <ClInclude Include="Boss_beholder.h" />
+    <ClInclude Include="Boss_final.h" />
+    <ClInclude Include="Boss_halfElf.h" />
+    <ClInclude Include="Bread.h" />
+    <ClInclude Include="brick1.h" />
+    <ClInclude Include="CabbageSoup.h" />
+    <ClInclude Include="cameraManager.h" />
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="Coffee.h" />
+    <ClInclude Include="collisionManager.h" />
+    <ClInclude Include="CookedBeans.h" />
+    <ClInclude Include="crypt1.h" />
+    <ClInclude Include="dImage.h" />
+    <ClInclude Include="DrainBite.h" />
+    <ClInclude Include="dtdManager.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="effectManager.h" />
+    <ClInclude Include="Egg.h" />
+    <ClInclude Include="EggPlant.h" />
+    <ClInclude Include="Ellis.h" />
+    <ClInclude Include="endScene.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyArrow.h" />
+    <ClInclude Include="enemyManager.h" />
+    <ClInclude Include="FishSoup.h" />
+    <ClInclude Include="Food.h" />
+    <ClInclude Include="FoodDex.h" />
+    <ClInclude Include="FoodMenu.h" />
+    <ClInclude Include="forest1.h" />
+    <ClInclude Include="gameOverScene.h" />
+    <ClInclude Include="Glove.h" />
+    <ClInclude Include="Gold.h" />
+    <ClInclude Include="HoneyBoar.h" />
+    <ClInclude Include="HunterEffect.h" />
+    <ClInclude Include="Hunter_arrow.h" />
+    <ClInclude Include="image.h" />
+    <ClInclude Include="imageManager.h" />
+    <ClInclude Include="introScene.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="itemManager.h" />
+    <ClInclude Include="Jessica.h" />
+    <ClInclude Include="keyManager.h" />
+    <ClInclude Include="Leaf.h" />
+    <ClInclude Include="macroFunc.h" />
+    <ClInclude Include="gameNode.h" />
+    <ClInclude Include="maptool.h" />
+    <ClInclude Include="mapToolScene.h" />
+    <ClInclude Include="MealBread.h" />
+    <ClInclude Include="Meat.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Milk.h" />
+    <ClInclude Include="Minion.h" />
+    <ClInclude Include="mysteryRoom.h" />
+    <ClInclude Include="NPC.h" />
+    <ClInclude Include="NPC_blacksmith.h" />
+    <ClInclude Include="NPC_cook.h" />
+    <ClInclude Include="NPC_skill.h" />
+    <ClInclude Include="NPC_taylor.h" />
+    <ClInclude Include="NullBox.h" />
+    <ClInclude Include="Oatmeal.h" />
+    <ClInclude Include="Orc.h" />
+    <ClInclude Include="OrcWarrior.h" />
+    <ClInclude Include="PathFinder.h" />
+    <ClInclude Include="Pattern.h" />
+    <ClInclude Include="Pattern_default.h" />
+    <ClInclude Include="Pattern_pathFinder.h" />
+    <ClInclude Include="Plant.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerSetting.h" />
+    <ClInclude Include="playerUI.h" />
+    <ClInclude Include="playGround.h" />
+    <ClInclude Include="PotExplode.h" />
+    <ClInclude Include="printManager.h" />
+    <ClInclude Include="RabbitStew.h" />
+    <ClInclude Include="randomFunction.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Rune.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneHeader.h" />
+    <ClInclude Include="sceneManager.h" />
+    <ClInclude Include="singletonBase.h" />
+    <ClInclude Include="Skeleton.h" />
+    <ClInclude Include="Slash1.h" />
+    <ClInclude Include="SlowTrap.h" />
+    <ClInclude Include="soundManager.h" />
+    <ClInclude Include="Spider.h" />
+    <ClInclude Include="SpiderQueen.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="streamManager.h" />
+    <ClInclude Include="StrongBolt.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Tear.h" />
+    <ClInclude Include="tileInfo.h" />
+    <ClInclude Include="tileManager.h" />
+    <ClInclude Include="timeManager.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="titleScene.h" />
+    <ClInclude Include="town.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="Trap.h" />
+    <ClInclude Include="trapManager.h" />
+    <ClInclude Include="TrapMenu.h" />
+    <ClInclude Include="txtData.h" />
+    <ClInclude Include="uiManager.h" />
+    <ClInclude Include="utils.h" />
+    <ClInclude Include="video.h" />
+    <ClInclude Include="Wolf.h" />
+    <ClInclude Include="XbowEffect.h" />
+    <ClInclude Include="Xbow_bolt.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Anvil.cpp" />
+    <ClCompile Include="ArmorSkeleton.cpp" />
+    <ClCompile Include="Arrow.cpp" />
+    <ClCompile Include="arrowManager.cpp" />
+    <ClCompile Include="Artifact.cpp" />
+    <ClCompile Include="ArtifactDex.cpp" />
+    <ClCompile Include="AstarTile.cpp" />
+    <ClCompile Include="Bat.cpp" />
+    <ClCompile Include="BearTrap.cpp" />
+    <ClCompile Include="Boots.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="bossEffect1_2.cpp" />
+    <ClCompile Include="bossEffect2_1.cpp" />
+    <ClCompile Include="bossEffect2_2.cpp" />
+    <ClCompile Include="bossRoom1.cpp" />
+    <ClCompile Include="bossRoom2.cpp" />
+    <ClCompile Include="Boss_beholder.cpp" />
+    <ClCompile Include="Boss_final.cpp" />
+    <ClCompile Include="Boss_halfElf.cpp" />
+    <ClCompile Include="Bread.cpp" />
+    <ClCompile Include="brick1.cpp" />
+    <ClCompile Include="CabbageSoup.cpp" />
+    <ClCompile Include="cameraManager.cpp" />
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="Coffee.cpp" />
+    <ClCompile Include="collisionManager.cpp" />
+    <ClCompile Include="CookedBeans.cpp" />
+    <ClCompile Include="crypt1.cpp" />
+    <ClCompile Include="dImage.cpp" />
+    <ClCompile Include="DrainBite.cpp" />
+    <ClCompile Include="dtdManager.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="effectManager.cpp" />
+    <ClCompile Include="Egg.cpp" />
+    <ClCompile Include="EggPlant.cpp" />
+    <ClCompile Include="Ellis.cpp" />
+    <ClCompile Include="endScene.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="EnemyArrow.cpp" />
+    <ClCompile Include="enemyManager.cpp" />
+    <ClCompile Include="FishSoup.cpp" />
+    <ClCompile Include="Food.cpp" />
+    <ClCompile Include="FoodDex.cpp" />
+    <ClCompile Include="FoodMenu.cpp" />
+    <ClCompile Include="forest1.cpp" />
+    <ClCompile Include="gameNode.cpp" />
+    <ClCompile Include="gameOverScene.cpp" />
+    <ClCompile Include="Glove.cpp" />
+    <ClCompile Include="Gold.cpp" />
+    <ClCompile Include="HoneyBoar.cpp" />
+    <ClCompile Include="HunterEffect.cpp" />
+    <ClCompile Include="Hunter_arrow.cpp" />
+    <ClCompile Include="image.cpp" />
+    <ClCompile Include="imageManager.cpp" />
+    <ClCompile Include="introScene.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="itemManager.cpp" />
+    <ClCompile Include="Jessica.cpp" />
+    <ClCompile Include="keyManager.cpp" />
+    <ClCompile Include="Leaf.cpp" />
+    <ClCompile Include="maptool.cpp" />
+    <ClCompile Include="mapToolScene.cpp" />
+    <ClCompile Include="MealBread.cpp" />
+    <ClCompile Include="Meat.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Milk.cpp" />
+    <ClCompile Include="Minion.cpp" />
+    <ClCompile Include="mysteryRoom.cpp" />
+    <ClCompile Include="NPC.cpp" />
+    <ClCompile Include="NPC_blacksmith.cpp" />
+    <ClCompile Include="NPC_cook.cpp" />
+    <ClCompile Include="NPC_skill.cpp" />
+    <ClCompile Include="NPC_taylor.cpp" />
+    <ClCompile Include="NullBox.cpp" />
+    <ClCompile Include="Oatmeal.cpp" />
+    <ClCompile Include="Orc.cpp" />
+    <ClCompile Include="OrcWarrior.cpp" />
+    <ClCompile Include="PathFinder.cpp" />
+    <ClCompile Include="Pattern.cpp" />
+    <ClCompile Include="Pattern_default.cpp" />
+    <ClCompile Include="Pattern_pathFinder.cpp" />
+    <ClCompile Include="Plant.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="playerUI.cpp" />
+    <ClCompile Include="playGround.cpp" />
+    <ClCompile Include="PotExplode.cpp" />
+    <ClCompile Include="printManager.cpp" />
+    <ClCompile Include="RabbitStew.cpp" />
+    <ClCompile Include="Rune.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="sceneManager.cpp" />
+    <ClCompile Include="Skeleton.cpp" />
+    <ClCompile Include="Slash1.cpp" />
+    <ClCompile Include="SlowTrap.cpp" />
+    <ClCompile Include="soundManager.cpp" />
+    <ClCompile Include="Spider.cpp" />
+    <ClCompile Include="SpiderQueen.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="streamManager.cpp" />
+    <ClCompile Include="StrongBolt.cpp" />
+    <ClCompile Include="Tear.cpp" />
+    <ClCompile Include="tileManager.cpp" />
+    <ClCompile Include="timeManager.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="titleScene.cpp" />
+    <ClCompile Include="town.cpp" />
+    <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="Trap.cpp" />
+    <ClCompile Include="trapManager.cpp" />
+    <ClCompile Include="TrapMenu.cpp" />
+    <ClCompile Include="txtData.cpp" />
+    <ClCompile Include="uiManager.cpp" />
+    <ClCompile Include="utils.cpp" />
+    <ClCompile Include="video.cpp" />
+    <ClCompile Include="winMain.cpp" />
+    <ClCompile Include="Wolf.cpp" />
+    <ClCompile Include="XbowEffect.cpp" />
+    <ClCompile Include="Xbow_bolt.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="windowAPI.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico" />
+    <Image Include="windowAPI.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

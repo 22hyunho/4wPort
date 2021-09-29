@@ -1,0 +1,910 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="video.cpp">
+      <Filter>2DGameFramework\video</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="collisionManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="dImage.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="dtdManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DGameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="maptool.cpp">
+      <Filter>playGround\Maptool</Filter>
+    </ClCompile>
+    <ClCompile Include="playGround.cpp">
+      <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="printManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>playGround\Stage\base</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="streamManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Ellis.cpp">
+      <Filter>playGround\Character &amp; NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Jessica.cpp">
+      <Filter>playGround\Character &amp; NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>playGround\Character &amp; NPC\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>playGround\Arrow\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Hunter_arrow.cpp">
+      <Filter>playGround\Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="arrowManager.cpp">
+      <Filter>playGround\Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyManager.cpp">
+      <Filter>playGround\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>playGround\Enemy\base</Filter>
+    </ClCompile>
+    <ClCompile Include="AstarTile.cpp">
+      <Filter>playGround\Enemy\pattern\A%2a</Filter>
+    </ClCompile>
+    <ClCompile Include="PathFinder.cpp">
+      <Filter>playGround\Enemy\pattern\A%2a</Filter>
+    </ClCompile>
+    <ClCompile Include="tileManager.cpp">
+      <Filter>playGround\Maptool</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattern.cpp">
+      <Filter>playGround\Enemy\pattern\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattern_pathFinder.cpp">
+      <Filter>playGround\Enemy\pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Xbow_bolt.cpp">
+      <Filter>playGround\Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="Trap.cpp">
+      <Filter>playGround\Trap\base</Filter>
+    </ClCompile>
+    <ClCompile Include="BearTrap.cpp">
+      <Filter>playGround\Trap</Filter>
+    </ClCompile>
+    <ClCompile Include="trapManager.cpp">
+      <Filter>playGround\Trap</Filter>
+    </ClCompile>
+    <ClCompile Include="Anvil.cpp">
+      <Filter>playGround\Artifact</Filter>
+    </ClCompile>
+    <ClCompile Include="ArtifactDex.cpp">
+      <Filter>playGround\Artifact</Filter>
+    </ClCompile>
+    <ClCompile Include="Artifact.cpp">
+      <Filter>playGround\Artifact\base</Filter>
+    </ClCompile>
+    <ClCompile Include="itemManager.cpp">
+      <Filter>playGround\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>playGround\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>playGround\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Tear.cpp">
+      <Filter>playGround\Artifact</Filter>
+    </ClCompile>
+    <ClCompile Include="Boots.cpp">
+      <Filter>playGround\Artifact</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>playGround\Enemy\base</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_blacksmith.cpp">
+      <Filter>playGround\Character &amp; NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_cook.cpp">
+      <Filter>playGround\Character &amp; NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_skill.cpp">
+      <Filter>playGround\Character &amp; NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC_taylor.cpp">
+      <Filter>playGround\Character &amp; NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>playGround\Character &amp; NPC\base</Filter>
+    </ClCompile>
+    <ClCompile Include="uiManager.cpp">
+      <Filter>playGround\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>playGround\UI\Menu\base</Filter>
+    </ClCompile>
+    <ClCompile Include="forest1.cpp">
+      <Filter>playGround\Stage\1_forest</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapMenu.cpp">
+      <Filter>playGround\UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SlowTrap.cpp">
+      <Filter>playGround\Trap</Filter>
+    </ClCompile>
+    <ClCompile Include="FoodMenu.cpp">
+      <Filter>playGround\UI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="playerUI.cpp">
+      <Filter>playGround\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="bossRoom1.cpp">
+      <Filter>playGround\Stage\bossRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="bossRoom2.cpp">
+      <Filter>playGround\Stage\bossRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="brick1.cpp">
+      <Filter>playGround\Stage\2_brick</Filter>
+    </ClCompile>
+    <ClCompile Include="Gold.cpp">
+      <Filter>playGround\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Meat.cpp">
+      <Filter>playGround\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Rune.cpp">
+      <Filter>playGround\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>playGround\Item\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Bat.cpp">
+      <Filter>playGround\Enemy\st1 Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Wolf.cpp">
+      <Filter>playGround\Enemy\st1 Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Plant.cpp">
+      <Filter>playGround\Enemy\st1 Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>playGround\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>playGround\Effect\base</Filter>
+    </ClCompile>
+    <ClCompile Include="Bread.cpp">
+      <Filter>playGround\Artifact</Filter>
+    </ClCompile>
+    <ClCompile Include="Coffee.cpp">
+      <Filter>playGround\Artifact</Filter>
+    </ClCompile>
+    <ClCompile Include="DrainBite.cpp">
+      <Filter>playGround\Artifact</Filter>
+    </ClCompile>
+    <ClCompile Include="EggPlant.cpp">
+      <Filter>playGround\Artifact</Filter>
+    </ClCompile>
+    <ClCompile Include="Glove.cpp">
+      <Filter>playGround\Artifact</Filter>
+    </ClCompile>
+    <ClCompile Include="Leaf.cpp">
+      <Filter>playGround\Artifact</Filter>
+    </ClCompile>
+    <ClCompile Include="Milk.cpp">
+      <Filter>playGround\Artifact</Filter>
+    </ClCompile>
+    <ClCompile Include="StrongBolt.cpp">
+      <Filter>playGround\Artifact</Filter>
+    </ClCompile>
+    <ClCompile Include="HunterEffect.cpp">
+      <Filter>playGround\Effect\Player Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="XbowEffect.cpp">
+      <Filter>playGround\Effect\Player Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="NullBox.cpp">
+      <Filter>playGround\Effect\Enemy Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Slash1.cpp">
+      <Filter>playGround\Effect\Enemy Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyArrow.cpp">
+      <Filter>playGround\Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="PotExplode.cpp">
+      <Filter>playGround\Effect\Enemy Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Spider.cpp">
+      <Filter>playGround\Enemy\st2 Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiderQueen.cpp">
+      <Filter>playGround\Enemy\st3 Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ArmorSkeleton.cpp">
+      <Filter>playGround\Enemy\st3 Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>playGround\Enemy\st3 Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Orc.cpp">
+      <Filter>playGround\Enemy\st2 Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="OrcWarrior.cpp">
+      <Filter>playGround\Enemy\st2 Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="gameOverScene.cpp">
+      <Filter>playGround\Stage\otherScene</Filter>
+    </ClCompile>
+    <ClCompile Include="mapToolScene.cpp">
+      <Filter>playGround\Stage\otherScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_beholder.cpp">
+      <Filter>playGround\Enemy\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_final.cpp">
+      <Filter>playGround\Enemy\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_halfElf.cpp">
+      <Filter>playGround\Enemy\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="titleScene.cpp">
+      <Filter>playGround\Stage\otherScene</Filter>
+    </ClCompile>
+    <ClCompile Include="mysteryRoom.cpp">
+      <Filter>playGround\Stage\safetyZone</Filter>
+    </ClCompile>
+    <ClCompile Include="town.cpp">
+      <Filter>playGround\Stage\safetyZone</Filter>
+    </ClCompile>
+    <ClCompile Include="CabbageSoup.cpp">
+      <Filter>playGround\Food</Filter>
+    </ClCompile>
+    <ClCompile Include="CookedBeans.cpp">
+      <Filter>playGround\Food</Filter>
+    </ClCompile>
+    <ClCompile Include="Egg.cpp">
+      <Filter>playGround\Food</Filter>
+    </ClCompile>
+    <ClCompile Include="FishSoup.cpp">
+      <Filter>playGround\Food</Filter>
+    </ClCompile>
+    <ClCompile Include="HoneyBoar.cpp">
+      <Filter>playGround\Food</Filter>
+    </ClCompile>
+    <ClCompile Include="MealBread.cpp">
+      <Filter>playGround\Food</Filter>
+    </ClCompile>
+    <ClCompile Include="Oatmeal.cpp">
+      <Filter>playGround\Food</Filter>
+    </ClCompile>
+    <ClCompile Include="RabbitStew.cpp">
+      <Filter>playGround\Food</Filter>
+    </ClCompile>
+    <ClCompile Include="Food.cpp">
+      <Filter>playGround\Food\base</Filter>
+    </ClCompile>
+    <ClCompile Include="FoodDex.cpp">
+      <Filter>playGround\Food</Filter>
+    </ClCompile>
+    <ClCompile Include="crypt1.cpp">
+      <Filter>playGround\Stage\3_crypt</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>playGround\Effect\Enemy Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="bossEffect2_1.cpp">
+      <Filter>playGround\Effect\Enemy Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="bossEffect2_2.cpp">
+      <Filter>playGround\Effect\Enemy Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="bossEffect1_2.cpp">
+      <Filter>playGround\Effect\Enemy Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Minion.cpp">
+      <Filter>playGround\Enemy\st2 Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="endScene.cpp">
+      <Filter>playGround\Stage\otherScene</Filter>
+    </ClCompile>
+    <ClCompile Include="introScene.cpp">
+      <Filter>playGround\Stage\otherScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattern_default.cpp">
+      <Filter>playGround\Enemy\pattern</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="video.h">
+      <Filter>2DGameFramework\video</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="collisionManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="dImage.h">
+      <Filter>2DGameFramework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="dtdManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DGameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2DGameFramework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="maptool.h">
+      <Filter>playGround\Maptool</Filter>
+    </ClInclude>
+    <ClInclude Include="macroFunc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="playGround.h">
+      <Filter>playGround</Filter>
+    </ClInclude>
+    <ClInclude Include="printManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>playGround\Stage\base</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DGameFramework\SingletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="streamManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="tileInfo.h">
+      <Filter>playGround\Maptool\base</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2DGameFramework\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneHeader.h">
+      <Filter>playGround\Stage\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Ellis.h">
+      <Filter>playGround\Character &amp; NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Jessica.h">
+      <Filter>playGround\Character &amp; NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>playGround\Character &amp; NPC\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>playGround\Arrow\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Hunter_arrow.h">
+      <Filter>playGround\Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="arrowManager.h">
+      <Filter>playGround\Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyManager.h">
+      <Filter>playGround\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>playGround\Enemy\base</Filter>
+    </ClInclude>
+    <ClInclude Include="AstarTile.h">
+      <Filter>playGround\Enemy\pattern\A%2a</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFinder.h">
+      <Filter>playGround\Enemy\pattern\A%2a</Filter>
+    </ClInclude>
+    <ClInclude Include="tileManager.h">
+      <Filter>playGround\Maptool</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern.h">
+      <Filter>playGround\Enemy\pattern\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern_pathFinder.h">
+      <Filter>playGround\Enemy\pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Xbow_bolt.h">
+      <Filter>playGround\Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="Trap.h">
+      <Filter>playGround\Trap\base</Filter>
+    </ClInclude>
+    <ClInclude Include="BearTrap.h">
+      <Filter>playGround\Trap</Filter>
+    </ClInclude>
+    <ClInclude Include="trapManager.h">
+      <Filter>playGround\Trap</Filter>
+    </ClInclude>
+    <ClInclude Include="Anvil.h">
+      <Filter>playGround\Artifact</Filter>
+    </ClInclude>
+    <ClInclude Include="ArtifactDex.h">
+      <Filter>playGround\Artifact</Filter>
+    </ClInclude>
+    <ClInclude Include="Artifact.h">
+      <Filter>playGround\Artifact\base</Filter>
+    </ClInclude>
+    <ClInclude Include="itemManager.h">
+      <Filter>playGround\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>playGround\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>playGround\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Tear.h">
+      <Filter>playGround\Artifact</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSetting.h">
+      <Filter>playGround\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Boots.h">
+      <Filter>playGround\Artifact</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>playGround\Enemy\base</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_blacksmith.h">
+      <Filter>playGround\Character &amp; NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_cook.h">
+      <Filter>playGround\Character &amp; NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_skill.h">
+      <Filter>playGround\Character &amp; NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC_taylor.h">
+      <Filter>playGround\Character &amp; NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>playGround\Character &amp; NPC\base</Filter>
+    </ClInclude>
+    <ClInclude Include="uiManager.h">
+      <Filter>playGround\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>playGround\UI\Menu\base</Filter>
+    </ClInclude>
+    <ClInclude Include="forest1.h">
+      <Filter>playGround\Stage\1_forest</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapMenu.h">
+      <Filter>playGround\UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SlowTrap.h">
+      <Filter>playGround\Trap</Filter>
+    </ClInclude>
+    <ClInclude Include="FoodMenu.h">
+      <Filter>playGround\UI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="playerUI.h">
+      <Filter>playGround\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="bossRoom1.h">
+      <Filter>playGround\Stage\bossRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="bossRoom2.h">
+      <Filter>playGround\Stage\bossRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="brick1.h">
+      <Filter>playGround\Stage\2_brick</Filter>
+    </ClInclude>
+    <ClInclude Include="Gold.h">
+      <Filter>playGround\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Meat.h">
+      <Filter>playGround\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Rune.h">
+      <Filter>playGround\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>playGround\Item\base</Filter>
+    </ClInclude>
+    <ClInclude Include="Bat.h">
+      <Filter>playGround\Enemy\st1 Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Wolf.h">
+      <Filter>playGround\Enemy\st1 Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Plant.h">
+      <Filter>playGround\Enemy\st1 Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>playGround\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>playGround\Effect\base</Filter>
+    </ClInclude>
+    <ClInclude Include="StrongBolt.h">
+      <Filter>playGround\Artifact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bread.h">
+      <Filter>playGround\Artifact</Filter>
+    </ClInclude>
+    <ClInclude Include="Coffee.h">
+      <Filter>playGround\Artifact</Filter>
+    </ClInclude>
+    <ClInclude Include="DrainBite.h">
+      <Filter>playGround\Artifact</Filter>
+    </ClInclude>
+    <ClInclude Include="EggPlant.h">
+      <Filter>playGround\Artifact</Filter>
+    </ClInclude>
+    <ClInclude Include="Glove.h">
+      <Filter>playGround\Artifact</Filter>
+    </ClInclude>
+    <ClInclude Include="Leaf.h">
+      <Filter>playGround\Artifact</Filter>
+    </ClInclude>
+    <ClInclude Include="Milk.h">
+      <Filter>playGround\Artifact</Filter>
+    </ClInclude>
+    <ClInclude Include="ArtifactHeader.h">
+      <Filter>playGround\Artifact\base</Filter>
+    </ClInclude>
+    <ClInclude Include="HunterEffect.h">
+      <Filter>playGround\Effect\Player Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="XbowEffect.h">
+      <Filter>playGround\Effect\Player Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="NullBox.h">
+      <Filter>playGround\Effect\Enemy Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Slash1.h">
+      <Filter>playGround\Effect\Enemy Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyArrow.h">
+      <Filter>playGround\Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="PotExplode.h">
+      <Filter>playGround\Effect\Enemy Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Spider.h">
+      <Filter>playGround\Enemy\st2 Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiderQueen.h">
+      <Filter>playGround\Enemy\st3 Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>playGround\Enemy\st3 Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmorSkeleton.h">
+      <Filter>playGround\Enemy\st3 Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Orc.h">
+      <Filter>playGround\Enemy\st2 Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="OrcWarrior.h">
+      <Filter>playGround\Enemy\st2 Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="gameOverScene.h">
+      <Filter>playGround\Stage\otherScene</Filter>
+    </ClInclude>
+    <ClInclude Include="mapToolScene.h">
+      <Filter>playGround\Stage\otherScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_beholder.h">
+      <Filter>playGround\Enemy\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_final.h">
+      <Filter>playGround\Enemy\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_halfElf.h">
+      <Filter>playGround\Enemy\boss</Filter>
+    </ClInclude>
+    <ClInclude Include="titleScene.h">
+      <Filter>playGround\Stage\otherScene</Filter>
+    </ClInclude>
+    <ClInclude Include="mysteryRoom.h">
+      <Filter>playGround\Stage\safetyZone</Filter>
+    </ClInclude>
+    <ClInclude Include="town.h">
+      <Filter>playGround\Stage\safetyZone</Filter>
+    </ClInclude>
+    <ClInclude Include="CabbageSoup.h">
+      <Filter>playGround\Food</Filter>
+    </ClInclude>
+    <ClInclude Include="CookedBeans.h">
+      <Filter>playGround\Food</Filter>
+    </ClInclude>
+    <ClInclude Include="Egg.h">
+      <Filter>playGround\Food</Filter>
+    </ClInclude>
+    <ClInclude Include="FishSoup.h">
+      <Filter>playGround\Food</Filter>
+    </ClInclude>
+    <ClInclude Include="HoneyBoar.h">
+      <Filter>playGround\Food</Filter>
+    </ClInclude>
+    <ClInclude Include="MealBread.h">
+      <Filter>playGround\Food</Filter>
+    </ClInclude>
+    <ClInclude Include="Oatmeal.h">
+      <Filter>playGround\Food</Filter>
+    </ClInclude>
+    <ClInclude Include="RabbitStew.h">
+      <Filter>playGround\Food</Filter>
+    </ClInclude>
+    <ClInclude Include="Food.h">
+      <Filter>playGround\Food\base</Filter>
+    </ClInclude>
+    <ClInclude Include="FoodDex.h">
+      <Filter>playGround\Food</Filter>
+    </ClInclude>
+    <ClInclude Include="crypt1.h">
+      <Filter>playGround\Stage\3_crypt</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>playGround\Effect\Enemy Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="bossEffect2_1.h">
+      <Filter>playGround\Effect\Enemy Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="bossEffect2_2.h">
+      <Filter>playGround\Effect\Enemy Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="bossEffect1_2.h">
+      <Filter>playGround\Effect\Enemy Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Minion.h">
+      <Filter>playGround\Enemy\st2 Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="endScene.h">
+      <Filter>playGround\Stage\otherScene</Filter>
+    </ClInclude>
+    <ClInclude Include="introScene.h">
+      <Filter>playGround\Stage\otherScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern_default.h">
+      <Filter>playGround\Enemy\pattern</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="windowAPI.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="2DGameFramework">
+      <UniqueIdentifier>{66dc1c79-b083-4744-9a20-d5ec6fb4728e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\image">
+      <UniqueIdentifier>{8faca1df-5c9c-4206-b461-0b5b77f8b222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager">
+      <UniqueIdentifier>{98a454ac-91c0-40c8-89c2-ec594f656a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\SingletonBase">
+      <UniqueIdentifier>{8854fb26-abab-471c-8667-cadeffa56dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\timer">
+      <UniqueIdentifier>{5d491a93-7115-4fd2-bb6c-582a3a2be974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Utils">
+      <UniqueIdentifier>{6286ef8e-35bb-4ad0-a982-cda14262a19a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\video">
+      <UniqueIdentifier>{ce14c4a0-bb80-4653-8e3d-b79ba775c2d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround">
+      <UniqueIdentifier>{612589cc-83d7-4f97-9a55-f5e7f0286c3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Maptool">
+      <UniqueIdentifier>{3ea1baac-81ef-4e27-9ca6-ab5b7e036c0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Stage">
+      <UniqueIdentifier>{504ddfa5-d154-431d-9e4f-380047897565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{2e2fceae-66af-4514-84a4-b912abd77e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{f94f3106-78c4-4b83-9f6f-1522ca873fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Stage\base">
+      <UniqueIdentifier>{8b044b3d-435d-4233-8157-6cc8b84b810b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Maptool\base">
+      <UniqueIdentifier>{60b1438b-78e2-43f7-a1ae-1655dbbd68f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{eadd8184-fa4a-4bde-9cff-55aab432b36a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Character &amp; NPC">
+      <UniqueIdentifier>{b348bfa8-423d-4d56-b7ac-212cc28dddb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Character &amp; NPC\base">
+      <UniqueIdentifier>{88a9cf5d-cd66-442f-aea6-0683a3381558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Arrow">
+      <UniqueIdentifier>{5f097687-26ad-4188-bc70-1b9541e130ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Arrow\base">
+      <UniqueIdentifier>{7c20950b-f949-472e-bbcf-7453ab777644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Enemy">
+      <UniqueIdentifier>{e0006782-5fbc-4e08-81a3-157aa1215c66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Enemy\base">
+      <UniqueIdentifier>{d90cd8e6-a367-46f9-a38e-0763cac41176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Enemy\pattern">
+      <UniqueIdentifier>{7329761e-5996-48a7-a435-2ea27bbcc9e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Enemy\pattern\A%2a">
+      <UniqueIdentifier>{e065ef7b-e47b-4c3f-9bc2-b93021c9140c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Enemy\pattern\base">
+      <UniqueIdentifier>{67a00524-586d-4a4b-b459-7c666ef7d51b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Trap">
+      <UniqueIdentifier>{6a6b3f7d-a092-4f67-8969-22ecd94eca3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Trap\base">
+      <UniqueIdentifier>{fd04a931-679e-496a-9f0a-c05a47b29226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Artifact">
+      <UniqueIdentifier>{35c2bc8d-16e6-4886-966c-13ddf09ca923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Artifact\base">
+      <UniqueIdentifier>{c5a55122-8383-4c04-9e3a-12928c8eb629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Item">
+      <UniqueIdentifier>{555b9e3c-9d03-4178-a2ad-f1d44185e68e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Player">
+      <UniqueIdentifier>{4b37b1c2-c31b-4069-807e-a955422277ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\UI">
+      <UniqueIdentifier>{a1f4fa99-31f7-486f-93c5-e7887a12e8c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\UI\Menu">
+      <UniqueIdentifier>{159ef586-4282-4ee0-a627-d3aad52c8b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\UI\Menu\base">
+      <UniqueIdentifier>{5e241045-184d-4df0-8491-59aebe9ada3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Stage\1_forest">
+      <UniqueIdentifier>{5f8e8bf7-ef94-4baa-a38e-b31ac64ad3f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Stage\bossRoom">
+      <UniqueIdentifier>{461388f5-566a-4dab-849b-5449d7d62f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Stage\2_brick">
+      <UniqueIdentifier>{f39847f5-cddf-4287-9531-04d4fa9ba06f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Item\base">
+      <UniqueIdentifier>{970074ed-8909-4a87-bdb2-a930876d2714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Enemy\st3 Enemy">
+      <UniqueIdentifier>{bb26cad2-489d-435d-9178-24803f798171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Enemy\st2 Enemy">
+      <UniqueIdentifier>{3ddece52-92b2-456b-b928-13eb756f5b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Enemy\st1 Enemy">
+      <UniqueIdentifier>{751d5be4-5ea9-4bb5-8c6e-4e62d99feea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Effect">
+      <UniqueIdentifier>{35f935d8-149f-45f0-a0e7-924d08303de3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Effect\base">
+      <UniqueIdentifier>{93a8a6ed-b4e7-4088-84c3-b1310cb56b18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Effect\Player Effect">
+      <UniqueIdentifier>{4776990e-f967-4c72-8325-8b2124fa4a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Effect\Enemy Effect">
+      <UniqueIdentifier>{1c3e83e9-5b99-4809-aa73-2085b1d9761e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Stage\otherScene">
+      <UniqueIdentifier>{1d78d3cf-93ea-4e7e-b947-6776262dd577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Enemy\boss">
+      <UniqueIdentifier>{9245fac5-6a6d-4ec0-ae91-39b8cdff7737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Stage\safetyZone">
+      <UniqueIdentifier>{37b54637-502a-44fd-991a-0267ba177c2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Food">
+      <UniqueIdentifier>{205be221-a9a8-479f-a1be-3103042b0118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Food\base">
+      <UniqueIdentifier>{4c235130-1fed-42e7-ae31-06013b9a7f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Stage\3_crypt">
+      <UniqueIdentifier>{fcd06b47-dd89-42b1-afb5-79495c158c54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="windowAPI.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
